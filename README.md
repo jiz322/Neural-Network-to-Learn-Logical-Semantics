@@ -24,7 +24,7 @@ The implementation of the same type of baseline discussed in paper [1]. Since th
 Intuitively, the LSTM layer capture sequencial relationships. But comparing to TreeRNN, it is recieve less amount of help from human knowledge. In this implementation, the parentheses are also encoded as indexes. It is interesting to see whether the LSTM algorithm can learn the semantics of parentheses through out the training. After tuning, it reaches to 72.0% accuracy on the test set.
 
 #### Tree RNN
-We implement the TreeRNN discussed in paper [1]. After tuning, it achieves 93.4% accuracy on the test set. In the paper, the TreeRNTN model archieve better accuracy. The implementation of TreeRNTN might be the future's work.
+We implement the TreeRNN discussed in paper [1] with a few variations. After tuning, it achieves 93.4% accuracy on the test set. In the paper, the TreeRNTN model archieve better accuracy. The implementation of TreeRNTN might be the future's work.
 
 ## Contribution
 Previous work in repository [1] uses Matlab as parimary language. Our work uses python's pytorch library, and get a decent accuracy with TreeRNN. 
