@@ -10,7 +10,7 @@ This is the final project for CSE498 at Lehigh University.
 
 ## Dataset
 The dataset is downloaded from the vector-entailment repository. \
-Each entries are logical predicates, label with its satisfiability. If satisfiable, there has to exist on combination truth values of p and q that makes this predicate true. \
+Each entries are logical predicates, label with its satisfiability. If satisfiable, there has to exist on combination truth values of p and q that makes this predicate true. 
 
 ## Task
 We make the prediction on satisfiability.
