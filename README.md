@@ -27,4 +27,4 @@ Intuitively, the LSTM layer capture sequencial relationships. But comparing to T
 We implement the TreeRNN discussed in paper [1]. After tuning, it achieves 93.4% accuracy on the test set. In the paper, the TreeRNTN model archieve better accuracy. The implementation of TreeRNTN might be the future's work.
 
 ## Contribution
-Previous work in Repository uses Matlab as parimary language. Our work uses python's pytorch library, and get a decent accuracy with TreeRNN. 
+Previous work in repository [1] uses Matlab as parimary language. Our work uses python's pytorch library, and get a decent accuracy with TreeRNN. 
